@@ -7,7 +7,9 @@ using namespace std;
 
 int main(int argc, char **argv)
 {
-    int n;cin>>n;
+    int n;
+    n = atoi(argv[1]);
+
     vector<int>a(n);
     for(int i=0;i<n;i++){
        a[i]=rand%100;
